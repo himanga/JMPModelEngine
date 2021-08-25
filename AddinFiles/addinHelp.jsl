@@ -1,0 +1,26 @@
+/*
+About: This File
+Opens the help file.
+
+Section: Globals
+*/
+
+Names default to here( 1 );
+
+thisAddIn = "com.github.himanga.JMPModelEngine";
+
+//get or make namespace for this add-in
+If( 
+	!Namespace Exists( Eval( thisAddIn ) || ".addinnamespace" ),
+	//reload the add-in
+	ns = New Namespace( Eval( thisAddIn ) || ".addinnamespace" );
+	ns:addinhome = "$ADDIN_HOME(" || thisAddIn || ")\";
+	Include( ns:addinhome || "addinLoad.jsl" );,
+	ns = Namespace( Eval( thisAddIn ) || ".addinnamespace" )
+);
+
+// Routine: Help page
+// Opens help file in a web browser box.
+Eval( Eval Expr(
+	Web( Expr( "file://" || Convert File Path( ns:addinhome ) || "Docs/index.html#File:Help/Help.txt" ), JMP window );
+) );

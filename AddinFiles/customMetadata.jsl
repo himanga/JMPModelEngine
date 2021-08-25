@@ -1,0 +1,13 @@
+Associative Array(
+	List(
+		List( "abouttext", "Tools to score JMP models." ),
+		List( "addinVersion", 0.01 ),
+		List( "author", "Isaac Himanga" ),
+		List( "buildDate", 3712748237 ),
+		List( "developer", "Isaac Himanga" ),
+		List( "developeremail", "message me on the JMP community or github" ),
+		List( "id", "com.github.himanga.JMPModelEngine" ),
+		List( "name", "JMP Model Engine" ),
+		List( "state", "DEV" )
+	)
+)

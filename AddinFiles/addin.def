@@ -1,0 +1,5 @@
+id=com.github.himanga.JMPModelEngine
+name=Model Engine
+supportJmpSE=0
+addinVersion=0.01
+minJmpVersion=16

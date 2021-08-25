@@ -1,0 +1,17 @@
+Title: JMP Model Engine
+
+A tool to score JMP models online.
+
+About: Version
+Find the latest version of this add-in here:
+
+https://community.jmp.com/t5/JMP-Add-Ins/tkb-p/add-ins
+
+The latest source code is available here:
+
+https://github.com/himanga/JMPModelEngine
+
+About: Developer
+Created by Isaac Himanga
+
+Submit bug reports via github at the link <above: Version>.
